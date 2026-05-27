@@ -1,0 +1,43 @@
+.Cart{
+    margin: 0;
+    padding: 0;
+} 
+
+.cart-container h3{
+    text-transform: capitalize;
+}
+.cart-container-details{
+    display: flex;
+    gap: 30px;   
+    
+}
+.cart-container-details .img img{
+  padding: 0px;
+  width: 320px;
+  height: 300px;
+  object-fit: cover;
+  justify-content: center;
+ 
+}
+
+@media (max-width:650px) {
+    .Cart{
+        padding: 5px;
+    }
+    .cart-container-details .img{
+        padding: auto;
+        margin: 10px;
+        margin-bottom: 0px;
+    }
+    .cart-container-details{
+        display: grid;
+}
+    .cart-container{
+        padding: 0;
+    }
+    p{
+        width: 325px;
+}   .cart-container h3{
+     margin-bottom: 30px;
+}
+}

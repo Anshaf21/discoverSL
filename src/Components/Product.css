@@ -1,0 +1,110 @@
+/* Product.css */
+
+.card {
+  width: 373px;
+  height: 125px;
+  padding: 10px;
+  background: #fff;
+  font-family:'Times New Roman', Times, serif;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-top: 4px;
+  margin-left: 0;
+  
+  
+}
+
+
+
+.card .name{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+.card .desc .city{
+    margin-top: 9px;
+    color: #777;
+    
+}
+.card .desc{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    color: #555;
+    display: inline-flex;
+    bottom: 0;
+}
+.card .category{
+    margin-left: 10px;
+    display: inline-flex;
+    bottom: 0;
+}
+.card .category p{
+    margin-right: 3px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #777;
+    text-transform: capitalize;
+    display: inline-flex;
+    
+}
+.card .category .world-icon{
+    color: #777;
+    font-size: 19px;
+    margin-top: 7px;
+    margin-right: 8px;
+    
+}
+
+
+.card .desc .location-icon{
+    color: #777;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-top: 6px;
+    
+}
+
+.card .desc p{
+    color: #777;
+    font-size: 16px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.card .map-icon{
+    color: rgb(245, 52, 52);
+    font-size: 24px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 2px;
+    display: none;
+}
+
+.card a{
+    margin-left: 0px;
+    margin-top: -10px;
+    font-size: 17.5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1e9972;
+    display: grid;
+}
+.card a:hover{
+    color: rgb(93, 235, 93);
+}
+
+@media (max-width:600px) {
+    .card{
+        padding: 5px;
+        height: 150px;
+        width: 350px;
+        margin-top: 0px;
+    }  
+    .card .category .world-icon{
+        display: none;
+    }
+    
+}
