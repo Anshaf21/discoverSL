@@ -34,7 +34,7 @@ body{
 @media (max-width:600px) {
     .navbar{
         height: 150px;
-        font-weight: bold;
+        
         
     }
     .navbar ul{

@@ -2,7 +2,7 @@
 
 .card {
   width: 373px;
-  height: 125px;
+  height: auto;
   padding: 10px;
   background: #fff;
   font-family:'Times New Roman', Times, serif;
@@ -99,11 +99,12 @@
 @media (max-width:600px) {
     .card{
         padding: 5px;
-        height: 150px;
+        height: auto;
         width: 350px;
         margin-top: 0px;
+        object-fit: cover;
     }  
-    .card .category .world-icon{
+    .card .category {
         display: none;
     }
     

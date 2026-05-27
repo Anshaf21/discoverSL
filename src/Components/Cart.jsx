@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import data from "../assets/product.json";
-import sigiriyaImg from '../assets/id1_sigiriya.jpg';
+//import sigiriyaImg from '../assets/images/id1_sigiriya.jpg';
 import './Cart.css';
 
 export const Cart = () => {
@@ -16,16 +16,16 @@ export const Cart = () => {
 
             <div className="cart-container-details">
                 <div className="img">
-                    <img src={`/assets/${product.image}`} alt="" />
+                    <img src={product.image} alt="" />
                 </div>
 
-                <div >
+                <div className="cart-container-include">
                 <h1>{product.name}</h1>    
                 <h3>📍 City: {product.city}</h3>
                 <h3>🌍 Category: {product.category}</h3>
                 <h3>💰 Entry Fee: {product.entryFee}</h3>
                 <h3>🕒 Visiting Hours: {product.visitingHours}</h3>
-                <p><h3>✨ Highlights: </h3>{product.description}</p>
+                <p><span>✨ Highlights: </span>{product.description}</p>
                 </div>
                 
             </div>
